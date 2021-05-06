@@ -18,7 +18,7 @@ pub struct Step<'a> {
 }
 
 pub struct Query<'a> {
-    pub repo: &'a str,
+    pub repos: Vec<&'a str>,
     pub queries: Vec<QueryMap<'a>>,
 }
 
